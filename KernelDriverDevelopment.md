@@ -1,12 +1,16 @@
 # Bootlin's Kernel Driver Development Slides
 
+Abreviations
+
+ANSI C Compliler
+
 ## Linux Kernel Intro
 
 Main roles
 
--Manage hardware resources
--Provide architecture and hardware independent API's
--Handle concurrent access and usage of hardware resources
+- Manage hardware resources
+- Provide architecture and hardware independent API's
+- Handle concurrent access and usage of hardware resources
 
 System Calls
 
@@ -20,3 +24,12 @@ Pseudo File Systems
 > 2 main types
     -  Proc = OS related info
     -  Sysfs = tree of devices connected by buses
+
+## Linux Kernel Source Code
+
+Programming Langauge
+
+- Implemented in C like all UNIX systems
+- No C++ used
+- All code compiled with GCC
+- 
